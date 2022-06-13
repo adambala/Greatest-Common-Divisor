@@ -3,9 +3,9 @@ from random import randint
 
 def gcd(a, b):
     """
-    Euclidean algorithm for the highest common factor of two integers.
+    Return the highest common factor of two non-zero integers.
 
-    Return the greatest common divisor of a and b
+    Calculates the greatest common divisor via Euclidian algorithm.
     """
     if (a != 0) and (b != 0):
         if a > b:
@@ -18,7 +18,7 @@ def gcd(a, b):
 
 def testGCD(rangeBoundary=1000, testNumber=100):
     """
-    Takes two random integers several times and calculates gcd.
+    Takes two random integers several times and calculates their greatest common divisor.
 
     Prints the result to the console.
 
