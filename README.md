@@ -20,12 +20,12 @@ The function has two optional keyword arguments:
 1. `rangeBoundary`: maximum possible generated integer,
 2. `testNumber`: the number of tests to be calculated.
 
-###In program:
+### In program:
 ```python
 testGCD(rangeBoundary=10000, testNumber=10)
 ```
 
-###Output example:
+### Output example:
 ```
 m = 622  || n = 8119 || gcd(m, n) = 1
 m = 9497 || n = 257  || gcd(m, n) = 1
