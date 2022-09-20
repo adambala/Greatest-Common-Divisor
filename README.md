@@ -13,8 +13,8 @@ gcd(48, 18)
 ```
 
 ## Tests
-`gcd.py` file has `testGCD` function which takes two random integers `m` and `n` via `random` library for several times and calculates `gcd(m, n)`.
-It is being used to demonstrate the accuracy of `gcd(a, b)`.
+`test.py` file has `testGCD` function which takes two random integers `m` and `n` via `random` library for several times and calculates `gcd(m, n)`.
+It is used to demonstrate the efficiency of `gcd(a, b)`.
 
 The function has two keyword arguments:
 1. `rangeBoundary`: maximum possible generated integer,
