@@ -16,7 +16,7 @@ def gcd(a, b):
         return a + b
 
 
-def testGCD(rangeBoundary=1000, testNumber=100):
+def testGCD(rangeBoundary, testNumber):
     """
     Takes two random integers several times and calculates their greatest common divisor.
 
@@ -40,4 +40,6 @@ def testGCD(rangeBoundary=1000, testNumber=100):
 
 
 if __name__ == "__main__":
-    testGCD(rangeBoundary=10000, testNumber=10)
+    rB = int(input("Maximum possible integer: "))
+    tN = int(input("Number of tests: "))
+    testGCD(rangeBoundary=rB, testNumber=tN)
