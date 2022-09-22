@@ -8,8 +8,7 @@ The `gcd(a, b)` function returns the greatest common divisor of its two integer 
 
 ### Example
 ```python
-gcd(48, 18)
-# 6
+gcd(48, 18) # 6
 ```
 
 ## Tests
@@ -30,14 +29,14 @@ Number of tests: 10
 
 ### Output example:
 ```
-m = 622  || n = 8119 || gcd(m, n) = 1
-m = 9497 || n = 257  || gcd(m, n) = 1
-m = 2146 || n = 7985 || gcd(m, n) = 1
-m = 1789 || n = 8731 || gcd(m, n) = 1
-m = 640  || n = 2256 || gcd(m, n) = 16
-m = 3008 || n = 1224 || gcd(m, n) = 8
-m = 68   || n = 440  || gcd(m, n) = 4
-m = 7076 || n = 1097 || gcd(m, n) = 1
-m = 7431 || n = 1753 || gcd(m, n) = 1
-m = 5377 || n = 4267 || gcd(m, n) = 1
+m = 9444 || n = 3789 || gcd(m, n) = 3
+m = 9797 || n = 8812 || gcd(m, n) = 1
+m = 3124 || n = 5049 || gcd(m, n) = 11
+m = 7495 || n = 5518 || gcd(m, n) = 1
+m = 4188 || n = 5908 || gcd(m, n) = 4
+m = 9488 || n = 1838 || gcd(m, n) = 2
+m = 923 || n = 386 || gcd(m, n) = 1
+m = 329 || n = 521 || gcd(m, n) = 1
+m = 2131 || n = 9343 || gcd(m, n) = 1
+m = 2220 || n = 4517 || gcd(m, n) = 1
 ```
