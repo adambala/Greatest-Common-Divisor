@@ -1,5 +1,6 @@
 from random import randint
 from gcd import gcd
+from math import log10
 
 
 def intInput(inputText='') -> int:
@@ -31,15 +32,16 @@ def testGCD(rangeBoundary, testNumber):
         rangeBoundary: maximum possible generated integer
         testNumber:    the number of tests to be calculated.
     """
+    digit_number = int(log10(rangeBoundary)) + 1
     for i in range(testNumber):
-        m = randint(0, abs(rangeBoundary))  # abs() used to avoid errors with negative numbers
-        n = randint(0, abs(rangeBoundary))
+        m = randint(1, abs(rangeBoundary))  # abs() used to avoid errors with negative numbers
+        n = randint(1, abs(rangeBoundary))
         result = gcd(m, n)
 
         # output
 
-        print(f'm = {m}', end=' || ')
-        print(f'n = {n}', end=' || ')
+        print(f'{m = : <{digit_number}}', end=' || ')
+        print(f'{n = : <{digit_number}}', end=' || ')
         print(f'gcd(m, n) = {result}')
 
 

@@ -6,7 +6,7 @@ This program uses [Euclidian algorithm](https://en.wikipedia.org/wiki/Euclidean_
 ## GCD function
 The `gcd(a, b)` function returns the greatest common divisor of its two integer arguments `a` and `b`.
 
-### Example
+## Example
 ```python
 gcd(48, 18) # 6
 ```
@@ -20,7 +20,7 @@ The function has two keyword arguments:
 2. `testNumber`: the number of tests to be calculated.
 
 The program takes these values from input.
-
+cd ..
 ### Input example:
 ```
 Maximum possible integer: 10000
@@ -29,14 +29,14 @@ Number of tests: 10
 
 ### Output example:
 ```
-m = 9444 || n = 3789 || gcd(m, n) = 3
-m = 9797 || n = 8812 || gcd(m, n) = 1
-m = 3124 || n = 5049 || gcd(m, n) = 11
-m = 7495 || n = 5518 || gcd(m, n) = 1
-m = 4188 || n = 5908 || gcd(m, n) = 4
-m = 9488 || n = 1838 || gcd(m, n) = 2
-m = 923 || n = 386 || gcd(m, n) = 1
-m = 329 || n = 521 || gcd(m, n) = 1
-m = 2131 || n = 9343 || gcd(m, n) = 1
-m = 2220 || n = 4517 || gcd(m, n) = 1
+m = 9431  || n = 2191  || gcd(m, n) = 1
+m = 8733  || n = 8729  || gcd(m, n) = 1
+m = 2506  || n = 568   || gcd(m, n) = 2
+m = 9784  || n = 5412  || gcd(m, n) = 4
+m = 7343  || n = 3691  || gcd(m, n) = 1
+m = 7760  || n = 3890  || gcd(m, n) = 10
+m = 3707  || n = 5818  || gcd(m, n) = 1
+m = 352   || n = 2853  || gcd(m, n) = 1
+m = 9285  || n = 2182  || gcd(m, n) = 1
+m = 5968  || n = 1592  || gcd(m, n) = 8
 ```
